@@ -17,9 +17,9 @@
 	<name>spring-boot-mvc-ci-cd</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<maven.compiler.source>1.8</maven.compiler.source>
-    	<maven.compiler.target>1.8</maven.compiler.target>
-		<!--<java.version>17</java.version>-->
+		<!--<maven.compiler.source>1.8</maven.compiler.source>
+    	<maven.compiler.target>1.8</maven.compiler.target>-->
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -30,6 +30,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
 		</dependency>
 
 
