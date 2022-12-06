@@ -8,13 +8,15 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.0.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
-	<packaging>war</packaging>
+	</parent>	
 	<groupId>com.ab</groupId>
 	<artifactId>spring-boot-mvc-ci-cd</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-mvc-ci-cd</name>
 	<description>Demo project for Spring Boot</description>
+	
+	<packaging>war</packaging>
+	
 	<properties>
 		<!--<maven.compiler.source>1.8</maven.compiler.source>
     	<maven.compiler.target>1.8</maven.compiler.target>-->
