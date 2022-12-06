@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CustomerController {
 	
 	
-	@GetMapping("/")
+	@GetMapping("/home")
 	public String home() {
 		return "Welcome to Spring MVC using CI / CD Pipeline";
 	}
